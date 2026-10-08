@@ -111,7 +111,7 @@ def new_func(variavel, writer):
         sheet_name="Resumo",
         index=False
     )
-# produtos por categoria
+    # produtos por categoria
     df_categoria = (
         prod_categoria
         .reset_index())
@@ -122,4 +122,3 @@ def new_func(variavel, writer):
         writer,
         sheet_name="Categorias",
         index=False)
-
